@@ -30,7 +30,13 @@ final class FilterField: NSSearchField {
     // MARK: Private Properties
     
     private let image: NSImage = .init(named: "filter.chevron")!
-    private var filteringImage: NSImage = .init(named: "filter.chevron-fill")!
+    private var filteringImage: NSImage =  {
+        if #available(macOS 12, *) {
+            return .init(named: "filter.chevron-fill")!
+        } else {
+            return .init(named: "filter.chevron-fill-fallback")!
+        }
+    }()
     
     
     
