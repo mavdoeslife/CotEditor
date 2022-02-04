@@ -5,9 +5,9 @@
         "package": "Sparkle",
         "repositoryURL": "https://github.com/sparkle-project/Sparkle",
         "state": {
-          "branch": "2.x",
-          "revision": "94b48c45e750b1fffec10a54a1c0f8a22bb19d9d",
-          "version": null
+          "branch": null,
+          "revision": "85d3fa2e0e2b7871866eb1a92231847cff4162fd",
+          "version": "2.0.0"
         }
       },
       {
@@ -23,9 +23,9 @@
         "package": "Yams",
         "repositoryURL": "https://github.com/jpsim/Yams",
         "state": {
-          "branch": "main",
-          "revision": "6ac70dd4ea78c3dab9446f34319d7b952cf1318c",
-          "version": null
+          "branch": null,
+          "revision": "9ff1cc9327586db4e0c8f46f064b6a82ec1566fa",
+          "version": "4.0.6"
         }
       }
     ]

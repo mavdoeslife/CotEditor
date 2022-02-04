@@ -288,7 +288,7 @@
 		2A6F0D551B5500E100C2D03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1EB5C319AD469500C1E37E /* Assets.xcassets */; };
 		2A6F0D561B5500E100C2D03C /* Syntaxes in Resources */ = {isa = PBXBuildFile; fileRef = 2A3A758D19E77C84001DAB88 /* Syntaxes */; };
 		2A6F0D571B5500E100C2D03C /* Themes in Resources */ = {isa = PBXBuildFile; fileRef = 2A7846DA18FE035E006BDF00 /* Themes */; };
-		2A6F0D591B5500E100C2D03C /* CotEditor.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 2A75ACCA19E86DDB00444894 /* CotEditor.sdef */; };
+		2A6F0D591B5500E100C2D03C /* Ghost Text Editor.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 2A75ACCA19E86DDB00444894 /* Ghost Text Editor.sdef */; };
 		2A6F0D5A1B5500E100C2D03C /* CotEditor.help in Resources */ = {isa = PBXBuildFile; fileRef = 2A6E3F3C19B5218300A63E97 /* CotEditor.help */; };
 		2A6F0D5B1B5500E100C2D03C /* SyntaxMap.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A2179F51A07093B002C4AB1 /* SyntaxMap.json */; };
 		2A6F0D5D1B5500E100C2D03C /* ReportTemplate.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A456C421A1EDCFC00395158 /* ReportTemplate.md */; };
@@ -325,7 +325,7 @@
 		2A73B5B71D4675350025337F /* Unicode.Scalar+ControlCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A73B5B31D4675350025337F /* Unicode.Scalar+ControlCharacter.swift */; };
 		2A73B5BC1D468DD30025337F /* Unicode.Scalar+Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A73B5BB1D468DD30025337F /* Unicode.Scalar+Information.swift */; };
 		2A73B5BD1D468DD30025337F /* Unicode.Scalar+Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A73B5BB1D468DD30025337F /* Unicode.Scalar+Information.swift */; };
-		2A75ACCB19E86DDB00444894 /* CotEditor.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 2A75ACCA19E86DDB00444894 /* CotEditor.sdef */; };
+		2A75ACCB19E86DDB00444894 /* Ghost Text Editor.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 2A75ACCA19E86DDB00444894 /* Ghost Text Editor.sdef */; };
 		2A7646E71D48EAF200350674 /* SettingManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7646E61D48EAF200350674 /* SettingManaging.swift */; };
 		2A7646E81D48EAF200350674 /* SettingManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7646E61D48EAF200350674 /* SettingManaging.swift */; };
 		2A7646EC1D49035500350674 /* SettingFileManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7646E91D48ECD100350674 /* SettingFileManaging.swift */; };
@@ -1091,7 +1091,7 @@
 		2A69077E1B8443AB00D0F3A2 /* de */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = de; path = de.lproj/ReportTemplate.md; sourceTree = "<group>"; };
 		2A6C8E3121E1187A003966ED /* EditorTextView+CursorMovement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditorTextView+CursorMovement.swift"; sourceTree = "<group>"; };
 		2A6E3F3C19B5218300A63E97 /* CotEditor.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CotEditor.help; sourceTree = "<group>"; };
-		2A6F0E071B5500E100C2D03C /* CotEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CotEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6F0E071B5500E100C2D03C /* Ghost Text Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost Text Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6F0E091B55043800C2D03C /* CotEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CotEditor.entitlements; sourceTree = "<group>"; };
 		2A6FD9D01D38933100A59784 /* EditorTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorTextViewController.swift; sourceTree = "<group>"; };
 		2A6FD9D71D38C94100A59784 /* EditorTextView+Indenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditorTextView+Indenting.swift"; sourceTree = "<group>"; };
@@ -1110,7 +1110,7 @@
 		2A733E8820BBB4AC0090D7CB /* String+Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Case.swift"; sourceTree = "<group>"; };
 		2A73B5B31D4675350025337F /* Unicode.Scalar+ControlCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Unicode.Scalar+ControlCharacter.swift"; sourceTree = "<group>"; };
 		2A73B5BB1D468DD30025337F /* Unicode.Scalar+Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Unicode.Scalar+Information.swift"; sourceTree = "<group>"; };
-		2A75ACCA19E86DDB00444894 /* CotEditor.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CotEditor.sdef; sourceTree = "<group>"; };
+		2A75ACCA19E86DDB00444894 /* Ghost Text Editor.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Ghost Text Editor.sdef"; sourceTree = "<group>"; };
 		2A7646E61D48EAF200350674 /* SettingManaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingManaging.swift; sourceTree = "<group>"; };
 		2A7646E91D48ECD100350674 /* SettingFileManaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingFileManaging.swift; sourceTree = "<group>"; };
 		2A7725631D50401300A53C09 /* SyntaxStyleValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxStyleValidator.swift; sourceTree = "<group>"; };
@@ -1461,7 +1461,7 @@
 		57ED31771FFD892A00F16CAD /* pt */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = pt; path = pt.lproj/ReportTemplate.md; sourceTree = "<group>"; };
 		6C1E212412C9E65600194313 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D15AC370486D014006FF6A4 /* CotEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CotEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D15AC370486D014006FF6A4 /* Ghost Text Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost Text Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EAE81027A5D7D600C6D571 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
 		98EAE81227A5D7D600C6D571 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/PreferencesWindow.strings"; sourceTree = "<group>"; };
 		98EAE81327A5D7D700C6D571 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/GeneralPane.strings"; sourceTree = "<group>"; };
@@ -1533,8 +1533,8 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D15AC370486D014006FF6A4 /* CotEditor.app */,
-				2A6F0E071B5500E100C2D03C /* CotEditor.app */,
+				8D15AC370486D014006FF6A4 /* Ghost Text Editor.app */,
+				2A6F0E071B5500E100C2D03C /* Ghost Text Editor.app */,
 				2AC71DDF1BF0BDBC002E1434 /* Tests.xctest */,
 				2A3F18F7203270BE002F1CA7 /* UI Tests.xctest */,
 			);
@@ -1989,7 +1989,7 @@
 				2A6F0E091B55043800C2D03C /* CotEditor.entitlements */,
 				2A715E21261AC5960060CF84 /* CotEditor-Sparkle.entitlements */,
 				5454B933243C8271009275BC /* CotEditor-AdHoc.entitlements */,
-				2A75ACCA19E86DDB00444894 /* CotEditor.sdef */,
+				2A75ACCA19E86DDB00444894 /* Ghost Text Editor.sdef */,
 				2A6E3F3C19B5218300A63E97 /* CotEditor.help */,
 			);
 			name = "Supporting Files";
@@ -2429,9 +2429,9 @@
 			productReference = 2A3F18F7203270BE002F1CA7 /* UI Tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		2A6F0D4E1B5500E100C2D03C /* CotEditor */ = {
+		2A6F0D4E1B5500E100C2D03C /* Ghost Text Editor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A6F0E041B5500E100C2D03C /* Build configuration list for PBXNativeTarget "CotEditor" */;
+			buildConfigurationList = 2A6F0E041B5500E100C2D03C /* Build configuration list for PBXNativeTarget "Ghost Text Editor" */;
 			buildPhases = (
 				2A53326126799AB4000DE73D /* Build Syntax Map */,
 				2A6F0DA31B5500E100C2D03C /* Sources */,
@@ -2445,14 +2445,14 @@
 			dependencies = (
 				2A53326326799B08000DE73D /* PBXTargetDependency */,
 			);
-			name = CotEditor;
+			name = "Ghost Text Editor";
 			packageProductDependencies = (
 				2ACD02BE22A87F0400893051 /* ColorCode */,
 				2AA2C6FB24399A920017D1EC /* Yams */,
 			);
 			productInstallPath = "$(HOME)/Applications";
 			productName = CotEditor;
-			productReference = 2A6F0E071B5500E100C2D03C /* CotEditor.app */;
+			productReference = 2A6F0E071B5500E100C2D03C /* Ghost Text Editor.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2AC71DDE1BF0BDBC002E1434 /* Tests */ = {
@@ -2472,9 +2472,9 @@
 			productReference = 2AC71DDF1BF0BDBC002E1434 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8D15AC270486D014006FF6A4 /* CotEditor -Sparkle */ = {
+		8D15AC270486D014006FF6A4 /* Ghost Text Editor -Sparkle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C71D95308640EDF00C9C0BD /* Build configuration list for PBXNativeTarget "CotEditor -Sparkle" */;
+			buildConfigurationList = 8C71D95308640EDF00C9C0BD /* Build configuration list for PBXNativeTarget "Ghost Text Editor -Sparkle" */;
 			buildPhases = (
 				2A53326426799B3B000DE73D /* Build Syntax Map */,
 				8D15AC300486D014006FF6A4 /* Sources */,
@@ -2488,7 +2488,7 @@
 			dependencies = (
 				2AD543792726B996001000CA /* PBXTargetDependency */,
 			);
-			name = "CotEditor -Sparkle";
+			name = "Ghost Text Editor -Sparkle";
 			packageProductDependencies = (
 				2ACD02BC22A87EFD00893051 /* ColorCode */,
 				2AA2C6FD24399AA20017D1EC /* Yams */,
@@ -2496,7 +2496,7 @@
 			);
 			productInstallPath = "$(HOME)/Applications";
 			productName = CotEditor;
-			productReference = 8D15AC370486D014006FF6A4 /* CotEditor.app */;
+			productReference = 8D15AC370486D014006FF6A4 /* Ghost Text Editor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2552,7 +2552,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C71D95708640EDF00C9C0BD /* Build configuration list for PBXProject "CotEditor" */;
+			buildConfigurationList = 8C71D95708640EDF00C9C0BD /* Build configuration list for PBXProject "Ghost Text Editor" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
@@ -2577,8 +2577,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A6F0D4E1B5500E100C2D03C /* CotEditor */,
-				8D15AC270486D014006FF6A4 /* CotEditor -Sparkle */,
+				2A6F0D4E1B5500E100C2D03C /* Ghost Text Editor */,
+				8D15AC270486D014006FF6A4 /* Ghost Text Editor -Sparkle */,
 				2AC71DDE1BF0BDBC002E1434 /* Tests */,
 				2A3F18F6203270BE002F1CA7 /* UI Tests */,
 				2A3E847D1D07296200070A54 /* Update Help Index */,
@@ -2595,7 +2595,7 @@
 				2A6F0D561B5500E100C2D03C /* Syntaxes in Resources */,
 				2A6F0D571B5500E100C2D03C /* Themes in Resources */,
 				2A6F0D5A1B5500E100C2D03C /* CotEditor.help in Resources */,
-				2A6F0D591B5500E100C2D03C /* CotEditor.sdef in Resources */,
+				2A6F0D591B5500E100C2D03C /* Ghost Text Editor.sdef in Resources */,
 				2A6F0D5B1B5500E100C2D03C /* SyntaxMap.json in Resources */,
 				2A80C65F1CEE33C100AA664D /* Credits.html in Resources */,
 				2AE73ECD2035223100D8903B /* Credits.css in Resources */,
@@ -2672,7 +2672,7 @@
 				2A3A758E19E77C84001DAB88 /* Syntaxes in Resources */,
 				2ABC76241909BF5200D2B592 /* Themes in Resources */,
 				2A6E3F3D19B5218300A63E97 /* CotEditor.help in Resources */,
-				2A75ACCB19E86DDB00444894 /* CotEditor.sdef in Resources */,
+				2A75ACCB19E86DDB00444894 /* Ghost Text Editor.sdef in Resources */,
 				2A2179F61A07093B002C4AB1 /* SyntaxMap.json in Resources */,
 				2A80C65E1CEE33C100AA664D /* Credits.html in Resources */,
 				2AE73ECC2035223100D8903B /* Credits.css in Resources */,
@@ -3415,12 +3415,12 @@
 		};
 		2AA2C6F7243996EC0017D1EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A6F0D4E1B5500E100C2D03C /* CotEditor */;
+			target = 2A6F0D4E1B5500E100C2D03C /* Ghost Text Editor */;
 			targetProxy = 2AA2C6F6243996EC0017D1EC /* PBXContainerItemProxy */;
 		};
 		2AA2C6F9243996EF0017D1EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A6F0D4E1B5500E100C2D03C /* CotEditor */;
+			target = 2A6F0D4E1B5500E100C2D03C /* Ghost Text Editor */;
 			targetProxy = 2AA2C6F8243996EF0017D1EC /* PBXContainerItemProxy */;
 		};
 		2AD543792726B996001000CA /* PBXTargetDependency */ = {
@@ -4260,13 +4260,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
-				CURRENT_PROJECT_VERSION = 474;
+				CURRENT_PROJECT_VERSION = 22.02;
 				DEVELOPMENT_TEAM = HT3Z3A72WZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = CotEditor/Info.plist;
-				MARKETING_VERSION = "4.1.0-alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.coteditor.$(PRODUCT_NAME)";
-				PRODUCT_NAME = CotEditor;
+				MARKETING_VERSION = 4.99.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mavericklt-media.Ghost-Text-Edit";
+				PRODUCT_NAME = "Ghost Text Editor";
 			};
 			name = Debug;
 		};
@@ -4276,13 +4276,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
-				CURRENT_PROJECT_VERSION = 474;
+				CURRENT_PROJECT_VERSION = 22.02;
 				DEVELOPMENT_TEAM = HT3Z3A72WZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = CotEditor/Info.plist;
-				MARKETING_VERSION = "4.1.0-alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.coteditor.$(PRODUCT_NAME)";
-				PRODUCT_NAME = CotEditor;
+				MARKETING_VERSION = 4.99.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mavericklt-media.Ghost-Text-Edit";
+				PRODUCT_NAME = "Ghost Text Editor";
 			};
 			name = Release;
 		};
@@ -4294,7 +4294,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CotEditor.app/Contents/MacOS/CotEditor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghost Text Editor.app/Contents/MacOS/Ghost Text Editor";
 			};
 			name = Debug;
 		};
@@ -4306,7 +4306,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CotEditor.app/Contents/MacOS/CotEditor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghost Text Editor.app/Contents/MacOS/Ghost Text Editor";
 			};
 			name = Release;
 		};
@@ -4316,13 +4316,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
-				CURRENT_PROJECT_VERSION = 474;
+				CURRENT_PROJECT_VERSION = 22.02;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = CotEditor/Info.plist;
-				MARKETING_VERSION = "4.1.0-alpha";
+				MARKETING_VERSION = 4.99.0;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D SPARKLE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
-				PRODUCT_NAME = CotEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mavericklt-media.Ghost-Text-Edit-Sparkle";
+				PRODUCT_NAME = "Ghost Text Editor";
 			};
 			name = Debug;
 		};
@@ -4332,13 +4332,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
-				CURRENT_PROJECT_VERSION = 474;
+				CURRENT_PROJECT_VERSION = 22.02;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = CotEditor/Info.plist;
-				MARKETING_VERSION = "4.1.0-alpha";
+				MARKETING_VERSION = 4.99.0;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D SPARKLE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
-				PRODUCT_NAME = CotEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mavericklt-media.Ghost-Text-Edit-Sparkle";
+				PRODUCT_NAME = "Ghost Text Editor";
 			};
 			name = Release;
 		};
@@ -4458,6 +4458,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -4488,7 +4489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A6F0E041B5500E100C2D03C /* Build configuration list for PBXNativeTarget "CotEditor" */ = {
+		2A6F0E041B5500E100C2D03C /* Build configuration list for PBXNativeTarget "Ghost Text Editor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A6F0E051B5500E100C2D03C /* Debug */,
@@ -4506,7 +4507,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C71D95308640EDF00C9C0BD /* Build configuration list for PBXNativeTarget "CotEditor -Sparkle" */ = {
+		8C71D95308640EDF00C9C0BD /* Build configuration list for PBXNativeTarget "Ghost Text Editor -Sparkle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C71D95408640EDF00C9C0BD /* Debug */,
@@ -4515,7 +4516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C71D95708640EDF00C9C0BD /* Build configuration list for PBXProject "CotEditor" */ = {
+		8C71D95708640EDF00C9C0BD /* Build configuration list for PBXProject "Ghost Text Editor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C71D95808640EDF00C9C0BD /* Debug */,
@@ -4531,16 +4532,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jpsim/Yams";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 		2AAAE6E326DB82F800C5F0AC /* XCRemoteSwiftPackageReference "Sparkle" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sparkle-project/Sparkle";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				branch = 2.x;
+				kind = branch;
 			};
 		};
 		2ACD02BB22A87CED00893051 /* XCRemoteSwiftPackageReference "WFColorCode" */ = {
